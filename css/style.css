@@ -17,3 +17,22 @@ h3 {
     color: rgb(139, 58, 74);
     font-size: 12px;
 }
+
+a {
+    color:rgb(78, 3, 3)
+    
+}
+
+a:hover {
+    color: floralwhite;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+figcaption {
+    color: mintcream;
+    background-color:mediumvioletred;
+    width: 40%;
+    text-align: center;
+}
