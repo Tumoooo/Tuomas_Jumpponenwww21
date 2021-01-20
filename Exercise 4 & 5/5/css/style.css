@@ -1,0 +1,33 @@
+/* Exercise 5 CSS file */
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:black;
+    font-size: 15px;
+ }
+
+ h1 {
+    color: rgb(7, 7, 7);
+    font-size: 33px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h3 {
+    color: rgb(253, 0, 51);
+    font-size: 18px;
+}
+
+h4 {
+    color: rgb(163, 44, 68);
+    font-size: 16px;
+}
+
+a:hover {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
