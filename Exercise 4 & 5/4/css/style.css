@@ -1,0 +1,58 @@
+.wrapper {
+    margin: auto;
+    width:100%;
+}
+
+.topmenu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 0; 
+    background-color: rgb(39, 55, 63);
+    height: 60px;
+    color: red;
+}
+
+a {
+    color: red
+}
+
+a:hover {
+    color: floralwhite;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.topmenu > li{
+    list-style: none;
+    padding: 1em;
+    color: red;
+}
+
+.flexgrowcon {
+    display: flex;
+    align-items: stretch;
+    color: rgb(10, 1, 8)  
+}
+
+.leftbar {
+    background-color: rgb(74, 124, 148);
+    min-height: 580px;
+    width: 100%;
+}
+
+content {
+    background-color: rgb(103, 174, 207);
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0; 
+    background-color: rgb(49, 71, 82);
+    color: white;
+    height: 60px;
+    text-align: center;
+}

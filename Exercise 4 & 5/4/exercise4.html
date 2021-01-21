@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tuomas Jumpponen">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Exercise4: HTML layout</title>
+<!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+
+<!-- Body starts here -->
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="topmenu">
+                <p>Finland's most read magazines:</p>
+                <li><a href="https://www.iltalehti.fi/">Iltalehti</a></li>
+                <li><a href="https://www.is.fi/">Iltasanomat</a></li>
+                <li><a href="https://www.aamulehti.fi/">Aamulehti</a></li>
+                <li><a href="https://www.hs.fi/">Helsingin Sanomat</a></li>
+                <li><a href="https://www.maaseuduntulevaisuus.fi/">Maaseudun Tulevaisuus</a></li>
+                <li><a href="https://yhteishyva.fi/">Yhteishyvä</a></li>
+                <li><a href="https://www.aamulehti.fi/moro/">Moro</a></li>
+                <li><a href="https://www.kainuunsanomat.fi/">Kainuun Sanomat</a></li>
+            </ul>
+        </header>
+
+        <div class="flexgrowcon">
+            <div class="leftbar">
+                <article>
+                    <p>This is my school exercise where I am learning to use HTML, CSS etc. I Decided to do example of putting together nice <br>
+                    and easy to read web page. Main goal is to make this page look like real one.</p>
+                    <p>From Header/NavigationBar you find easy access to Finland's most read paper magazines.</p>
+                    <p>In this left bar I am explaining what my exercise have.</p>
+                    <p>Center of the page is reserved for some nonsense text and pictures.</p>
+                    <p>In the Footer you will find some nonsense information.</p>
+                </article>
+            </div>
+            
+            <content style="flex-grow: 6;">
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at vestibulum est. Phasellus arcu nunc, accumsan eget tincidunt ac, ullamcorper finibus dolor. Donec suscipit lorem eu arcu pharetra aliquet. Nunc aliquet ligula a diam volutpat, at tempus metus venenatis. Sed ullamcorper, libero sit amet ullamcorper scelerisque, nisl nisl lobortis metus, quis tempus sapien odio ac sapien. Vivamus finibus ex vel velit elementum fermentum. Nam eleifend commodo gravida. Phasellus et leo cursus, finibus mauris a, porttitor ante. Sed suscipit est a mi accumsan, molestie convallis eros sagittis. Fusce dignissim lectus vitae sapien vulputate, a hendrerit nunc egestas. Donec tellus tortor, mollis eget lorem id, rutrum consequat sapien. Sed neque lacus, gravida vel lacinia quis, pulvinar ut purus. Aliquam erat volutpat. Phasellus eget tempus arcu, vitae pellentesque orci.</p>
+                    <p>Praesent et turpis at metus tincidunt efficitur. Vivamus vehicula nunc at posuere porta. Nunc vel massa ac nulla venenatis dignissim a sit amet magna. Proin non augue vestibulum risus consequat faucibus. Pellentesque eget volutpat nisl. Vestibulum volutpat vestibulum egestas. Proin sit amet dapibus metus. Aenean tincidunt, risus quis rhoncus scelerisque, nunc quam accumsan quam, a ultricies tellus massa euismod mi. Mauris at aliquam quam.</p>
+                </article>
+                <img src="images/cat.jpg"  alt="Cat" title="Beautiful Cat" width="500px" height="300px" ALIGN="left">
+                <img src="images/car.jpg"  alt="Car" title="Old Car with a view" width="500px" height="300px" ALIGN="right"> 
+            </content>
+        </div>
+        <footer>
+            <p>These are the contacts I came up with: "Matti Meikäläinen, puh 070 987 654, os. Talokuja 3B, 22330 Suomi"</p>
+        </footer>
+    </div>
+</body>
+</html>
